@@ -990,23 +990,20 @@ body {
   top: 5%; /* Adjust the top position as needed */
   left: 50%; /* Center horizontally */
   transform: translateX(-50%);
-  max-width: 100%; /* Set a maximum width for the text box */
   font-size: 14px; /* Adjust font size as needed */
   color: #333; /* Text color */
   background-color: rgba(255, 255, 255, 0.8); /* Background color with transparency */
-  padding: 5px 10px; /* Adjust padding as needed (top/bottom, left/right) */
+  padding: 5px 5px; /* Adjust padding as needed (top/bottom, left/right) */
   border-radius: 5px; /* Rounded corners */
   text-align: center; /* Center-align text */
-  line-height: 1.4; /* Adjust line height to reduce height */
+  line-height: 1; /* Adjust line height to reduce height */
   max-height: 80%; /* Set a maximum height for the text box */
   overflow-y: auto; /* Add vertical scroll if content exceeds max-height */
-  overflow-wrap: break-word;
 }
 
 @media screen and (max-width: 768px) {
   .top-paragraph {
     font-size: 14px; /* Adjust font size for smaller screens */
-    max-width: 100%; /* Increase max-width for better readability on small screens */
   }
 }
 
